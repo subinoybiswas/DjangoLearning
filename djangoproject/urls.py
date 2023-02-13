@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('about/',include('about.urls')),
     path('newapp/',include('newapp.urls')),
+    path('napp/',include('napp.urls')),
 ]
